@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 220px;
+    height: 60px;
+}
+
+
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 1px;
+    font-size: medium;
+    font-weight: 200;
+    font-style: normal;
+    
+    
+}
+.nav-links li a:hover{
+    color: skyblue;
+    
+}
+.bt-login{
+    width: 50px;
+    height: 30px; 
+    border-radius: 10px;
+    border-style: none;
+    background-color: skyblue;
+    color: white;
+    font-weight: bolder;
+    margin-right: 30px;
+    font-size: large;
+    margin-right: 1opx;
+    cursor: pointer;
+ 
+
+
+}
+.bt-login:hover{
+    color: black;
+    cursor: pointer;
+}
+.big{
+    font-size: 50px;
+    color: white;
+    padding-top: 30px;
+    
+}
+.small{
+    font-size: 20px;
+    color: yellow;
+    padding-top: 40px;
+
+}
+.aaa{
+height: 500px;
+width: 600px;
+padding-left: 240px;
+
+
+}
+.main{
+    display: flex;
+    align-items: normal;
+    background-color: black;
+    
+}
+.btn{
+    
+    color: white;
+
+    background-color: skyblue;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    align-items: end;
+
+}
+div{
+    ;
+    
+}
+div{
+   
+}
+.big2{
+    font-size: 40px;
+    color: #37517e;
+    text-align: center;
+    background-color: gray;
+}
+.logo2{  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: gray;
+}
+
+.logo3{
+    height: 7%;
+    width: 7%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color:bisque;
+    padding-top: 5px;
+
+}
